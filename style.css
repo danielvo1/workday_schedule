@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1;
 }
 
@@ -16,6 +16,7 @@ textarea{
 input[type=text] {
   width: 100%;
   padding: 35px 10px;
+  color: black;
   box-sizing: border-box;
 }
 
@@ -74,4 +75,30 @@ input[type=text] {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+@media screen and (max-width: 991px) {
+  .saveBtn {
+    background-color: pink;
+  }
+
+  input[type=text] {
+  width: 100%;
+  padding: 15px 5px;
+  box-sizing: border-box;
+}
+  .hour {
+    color: hotpink;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hour {
+    color: black;
+    font-size: 10px;
+    font-weight: bolder;
+  }
+
+}
+
 
